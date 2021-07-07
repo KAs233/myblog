@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>部分结构、功能点梳理 | KAs233&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/myblog/favicon.ico">
+    <meta name="description" content="Hello World?">
+    
+    <link rel="preload" href="/myblog/assets/css/0.styles.67e31bac.css" as="style"><link rel="preload" href="/myblog/assets/js/app.3c66878a.js" as="script"><link rel="preload" href="/myblog/assets/js/2.da2cc328.js" as="script"><link rel="preload" href="/myblog/assets/js/13.b82e3bf2.js" as="script"><link rel="prefetch" href="/myblog/assets/js/10.1d15497d.js"><link rel="prefetch" href="/myblog/assets/js/11.b2beecc1.js"><link rel="prefetch" href="/myblog/assets/js/12.5fdb66ac.js"><link rel="prefetch" href="/myblog/assets/js/14.ab90a40c.js"><link rel="prefetch" href="/myblog/assets/js/3.9175481d.js"><link rel="prefetch" href="/myblog/assets/js/4.2fb93bc2.js"><link rel="prefetch" href="/myblog/assets/js/5.1474cf9c.js"><link rel="prefetch" href="/myblog/assets/js/6.2958d7f8.js"><link rel="prefetch" href="/myblog/assets/js/7.4f3f4813.js"><link rel="prefetch" href="/myblog/assets/js/8.e0c47716.js"><link rel="prefetch" href="/myblog/assets/js/9.a8ed5bc0.js">
+    <link rel="stylesheet" href="/myblog/assets/css/0.styles.67e31bac.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myblog/" class="home-link router-link-active"><!----> <span class="site-name">KAs233's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myblog/other/" class="nav-link">
+  杂谈
+</a></div><div class="nav-item"><a href="/myblog/daily/" class="nav-link">
+  日常
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习之旅" class="dropdown-title"><span class="title">学习之旅</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习之旅" class="mobile-dropdown-title"><span class="title">学习之旅</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/myblog/study/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/myblog/study/npm/" class="nav-link">
+  npm
+</a></li></ul></div></div><div class="nav-item"><a href="https://gitee.com/kas233" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myblog/other/" class="nav-link">
+  杂谈
+</a></div><div class="nav-item"><a href="/myblog/daily/" class="nav-link">
+  日常
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习之旅" class="dropdown-title"><span class="title">学习之旅</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习之旅" class="mobile-dropdown-title"><span class="title">学习之旅</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/myblog/study/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/myblog/study/npm/" class="nav-link">
+  npm
+</a></li></ul></div></div><div class="nav-item"><a href="https://gitee.com/kas233" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/myblog/workinfo/" aria-current="page" class="active sidebar-link">部分结构、功能点梳理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myblog/workinfo/#部分结构、功能点梳理" class="sidebar-link">部分结构、功能点梳理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myblog/workinfo/#枚举类型定义的目的" class="sidebar-link">枚举类型定义的目的</a></li><li class="sidebar-sub-header"><a href="/myblog/workinfo/#前端业务接口管理" class="sidebar-link">前端业务接口管理</a></li><li class="sidebar-sub-header"><a href="/myblog/workinfo/#登录及接口鉴权逻辑" class="sidebar-link">登录及接口鉴权逻辑</a></li><li class="sidebar-sub-header"><a href="/myblog/workinfo/#后端接口条件查询实现" class="sidebar-link">后端接口条件查询实现</a></li><li class="sidebar-sub-header"><a href="/myblog/workinfo/#前端nestedtable组件常用说明" class="sidebar-link">前端NestedTable组件常用说明</a></li><li class="sidebar-sub-header"><a href="/myblog/workinfo/#前端平台实现框架解读" class="sidebar-link">前端平台实现框架解读</a></li><li class="sidebar-sub-header"><a href="/myblog/workinfo/#其他" class="sidebar-link">其他</a></li></ul></li></ul></li><li><a href="/myblog/workinfo/a.html" class="sidebar-link">2021.7 工作日志</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="部分结构、功能点梳理"><a href="#部分结构、功能点梳理" class="header-anchor">#</a> 部分结构、功能点梳理</h2> <blockquote><p>帮助自己梳理总结各种细节功能点。</p></blockquote> <h3 id="枚举类型定义的目的"><a href="#枚举类型定义的目的" class="header-anchor">#</a> 枚举类型定义的目的</h3> <p>目的：通过统一接口进行枚举类型获取，在前端进行下拉选择。</p> <blockquote><p>后端通过加载对应命名空间下的Assembly，然后遍历匹配，实现获取对应枚举类型的属性。</p></blockquote> <p>后端位置：src\domain\baseinfo\BaseInfo.HttpApi\EnumController.cs</p> <p>前端位置：src\api\enum.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code> <span class="token function">getMultEnumSelect</span><span class="token punctuation">(</span>enumArr<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> boolTypeObj <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>mainGridColumns<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">val</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> val<span class="token punctuation">.</span>index <span class="token operator">===</span> <span class="token string">&quot;bookType&quot;</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>bookTypeOptions <span class="token operator">=</span> response<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+      boolTypeObj<span class="token punctuation">.</span>data <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>bookTypeOptions<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><blockquote><p>思考：是否可调整为从数据库获取配置，这样会更加灵活。</p></blockquote> <h3 id="前端业务接口管理"><a href="#前端业务接口管理" class="header-anchor">#</a> 前端业务接口管理</h3> <p>一般同一业务实体统一管理相关业务接口API的调用方法，在实际使用页面中进行import引入。</p> <p>前端位置：src\api\[业务类型]\[实体名称].js</p> <p>如：</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> request <span class="token keyword">from</span> <span class="token string">'@/utils/request'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">apiCreate</span><span class="token punctuation">(</span><span class="token parameter">dto</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">request</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    url<span class="token operator">:</span> <span class="token string">'/api/aBook/create'</span><span class="token punctuation">,</span>
+    method<span class="token operator">:</span> <span class="token string">'post'</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span> dto
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//...</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="登录及接口鉴权逻辑"><a href="#登录及接口鉴权逻辑" class="header-anchor">#</a> 登录及接口鉴权逻辑</h3> <p>首先用户分为基本用户、运维人员两种，均存在Person表，基本用户会多存一张user表。登录时，对两种用户会有差异。</p> <p>登录时，先调用login/door、login/room接口，对应Login、Login2方法，分别用于校验账号密码（若基本用户则返回其租户身份信息；密码存储采用基础部分+固定字符+guidId编码的MD5加密）、获取token凭证（采用时间+用户ID的SHA加密），并存于redis缓存中。</p> <p>后端位置：src\domain\permission\Application\...\Impl\LoginService.cs</p> <blockquote><p>前端会将token存放于请求的header中一同进行请求。后续接口通过AuthMiddleware中间件来进行接口鉴权，除了白名单之外的接口均需要进行token有无的验证，再讲传入的token放置于静态字典中，在各接口的使用中通过AuthHelper获取用户信息时会验证静态字典与redis中token是否一致。</p></blockquote> <h3 id="后端接口条件查询实现"><a href="#后端接口条件查询实现" class="header-anchor">#</a> 后端接口条件查询实现</h3> <p>通过在FilterHelper类构造Express，在对数据进行Lambda表达式查询。</p> <h3 id="前端nestedtable组件常用说明"><a href="#前端nestedtable组件常用说明" class="header-anchor">#</a> 前端<em>NestedTable</em>组件常用说明</h3> <p><em>NestedTable</em>为前端已封装好的列表组件，方便快速搭建页面。其包含了很多属性，在实际使用时，进行调用传参，可实现不同页面的不要需要。默认加载<code>新增</code>、<code>删除</code>两个按钮，以及双击行等调用上级事件。以下会按照功能来列举一些常用的属性。</p> <blockquote><p>更多属性及配置方法，在需要的时候阅读相关组件页面即可。在VSCode中可直接<kbd>Ctrl</kbd> + <kbd>P</kbd>快速定位。</p> <p>位置：src\components\Table\NestedTable.vue</p></blockquote> <div class="language-js line-numbers-mode"><pre class="language-js"><code>props<span class="token operator">:</span><span class="token punctuation">{</span>
+    <span class="token comment">//基础列表</span>
+    <span class="token comment">//主要表标题</span>
+    mainGridTitle<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token string">''</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">//主表列信息</span>
+    mainGridColumns<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Array<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+      require<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token comment">//必填</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否启用分页</span>
+    mainGridPaging<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">//表数据代理</span>
+    tableDataProxy<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 根fancygrid类似的api清求相关信息</span>
+      <span class="token comment">// proxy: {</span>
+      <span class="token comment">//   url: '/api/CargoAreaContract/Read',</span>
+      <span class="token comment">//   type: 'POST'</span>
+      <span class="token comment">// }</span>
+      type<span class="token operator">:</span> Object<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token keyword">null</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">//左边功能列显示</span>
+    <span class="token comment">//是否有折叠，一般为了显示子查询及相关操作。</span>
+    <span class="token comment">//是否有checkbox，可进行勾选多选。</span>
+    <span class="token comment">//是否有序号，加上即显示序号#</span>
+    leftColumns<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Object<span class="token punctuation">,</span>
+      <span class="token function-variable function">default</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span> expand<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> select<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> order<span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        
+    <span class="token comment">//...</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><h3 id="前端平台实现框架解读"><a href="#前端平台实现框架解读" class="header-anchor">#</a> 前端平台实现框架解读</h3> <h3 id="其他"><a href="#其他" class="header-anchor">#</a> 其他</h3> <p>序列化属性在后端哪里处理的（如何在返回时将字段名首字母序列化为小写）？</p> <blockquote><p>ABP框架在做ToJson处理时，默认将属性按照驼峰命名法进行序列化。当然这一过程也可以进行自定义配置。</p></blockquote> <p>前端api字段替换，及端口替换过程是如何执行的？</p> <blockquote><p>在vue.config.js中进行相关配置。通过vue-cli3设置代理解决webapi中的跨域。所以可通过前端端口访问到后端端口api。</p></blockquote> <p>如何进行部署？</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/myblog/workinfo/a.html">
+        2021.7 工作日志
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/myblog/assets/js/app.3c66878a.js" defer></script><script src="/myblog/assets/js/2.da2cc328.js" defer></script><script src="/myblog/assets/js/13.b82e3bf2.js" defer></script>
+  </body>
+</html>
